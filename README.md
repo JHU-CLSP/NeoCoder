@@ -16,7 +16,7 @@ scripts/ // bash scripts to scale up experiments.
 
 ## Setup
 1. Setup Zenrows API for scraping: `echo "export ZENROWS_API_KEY='yourkey'" >> ~/.bashrc`
-2. Setup OpenAI API for a generation: `echo "export OPENAI_API_KEY='yourkey'" >> ~/.bashrc`
+2. Setup OpenAI API for generations: `echo "export OPENAI_API_KEY='yourkey'" >> ~/.bashrc`
 3. Creative environment: `conda create --name creativity python=3.9`
 4. Activate environment: `conda activate creativity`
 5. Setup environment: `pip install -r requirements.txt`
