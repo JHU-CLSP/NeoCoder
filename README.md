@@ -1,7 +1,7 @@
 # Benchmarking Language Model Creativity: A Case Study on Code Generation
 
 This is the official code release accompanying our paper "Benchmarking Language Model Creativity: A Case Study on Code Generation". Our dataset under `datasets/CodeForce` contains:
-1. **CreativeCoder dataset**: 199 problems with maximum of 5 temporally relevant constraints.
+1. **NeoCoder dataset**: 199 problems with maximum of 5 temporally relevant constraints.
 2. **Historical human solutions**: 30 human solutions per problem and their technique detection results (by GPT-4).
 3. **Human annotated test cases**: Our manually annotated test cases for fixing certain parsing problems from crawling. 
 4. **Other supporting files**: 500 crawled original codeforces problems and crawled raw test cases.
