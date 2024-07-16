@@ -24,7 +24,9 @@ scripts/ // bash scripts to scale up experiments.
 
 ## Full Steps to Reproduce Our Dataset and Results
 
-If someone wants to use only our NeoCoder to reproduce the results, please run steps [Inference](#inference-equation-1-in-the-paper) and [NeoGauge@T Calculation](#neogauget-calculation-section-4-in-the-paper).
+**If someone wants to use only our NeoCoder dataset to reproduce the results, please run steps [Inference](#inference-equation-1-in-the-paper) and [NeoGauge@T Calculation](#neogauget-calculation-section-4-in-the-paper)**.
+
+**Note** that the `NeoCoder.json` file is originally and automatically saved with the name format of `{model_name}_diff={diff}_sample={num_sample}_dp={dp_rounds}.json`. For simplicity purposes, we manually change the name to **NeoCoder** to match the dataset name in our paper. 
 
 ### Prepare Dataset
 1. Crawl CodeForce problems: `python steps/crawl_codeforce_problem.py --raw-data-dir datasets/CodeForce/raw/CodeForce800spreadsheet.xlsx --save-dir --num-sample --difficulty` 
@@ -52,5 +54,3 @@ If someone wants to use only our NeoCoder to reproduce the results, please run s
    We provide a running example in `scripts/detect_techniques.sh`
 
 3. Final NeoGauge@T Calculation: `python steps/creativity_evaluation.py --task creativity --inference-result-path --human-solution-path --save-folder`
-
-**Note** that the `NeoCoder.json` file is originally and automatically saved with the name format of `{model_name}_diff={diff}_sample={num_sample}_dp={dp_rounds}.json`. For simplicity purposes, we manually change the name to **NeoCoder** to match the dataset name in our paper. 
