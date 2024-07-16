@@ -37,7 +37,7 @@ nvidia-smi -l 5 > test/gpu_usage.log &
 PID=$!K
 
 python steps/inference_dp.py \
-          --dataset-path datasets/CodeForce/DPCode/gpt-4-1106-preview_diff=800_sample=200_dp=5.json \
+          --dataset-path datasets/CodeForce/NeoCoder/gpt-4-1106-preview_diff=800_sample=200_dp=5.json \
           --model-name meta-llama/Meta-Llama-3-70B-Instruct \
           --dp-rounds 5 \
           --batch-size 1 \
