@@ -54,3 +54,17 @@ scripts/ // bash scripts to scale up experiments.
    We provide a running example in `scripts/detect_techniques.sh`
 
 3. Final NeoGauge@T Calculation: `python steps/creativity_evaluation.py --task creativity --inference-result-path --human-solution-path --save-folder`
+   
+## Citation
+If you use this code, please cite the following paper:
+```
+@misc{lu2024benchmarkinglanguagemodelcreativity,
+      title={Benchmarking Language Model Creativity: A Case Study on Code Generation}, 
+      author={Yining Lu and Dixuan Wang and Tianjian Li and Dongwei Jiang and Daniel Khashabi},
+      year={2024},
+      eprint={2407.09007},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2407.09007}, 
+}
+```
