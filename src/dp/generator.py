@@ -8,8 +8,8 @@ from typing import Text, Dict, Any, List, Optional
 from torch.utils.data import DataLoader
 
 CONTROL_FLOWS = ['if statement', 'for loop', 'while loop', 'break statement', 'continue statement', 'pass statement', 'match statement', 'recursion']
-DATA_STRUCTURES = ['stack', 'queue', 'tuple', 'set', 'dictionary', 'linked list', 'tree', 'graph', 'graph traversal']
-ALGORITHMS = ['two pointers', 'sliding window', 'matrix operation', 'hashmap', 'depth first search', 'width first search', 'back tracking', 'dived & conquer', 'Kadanes algorithm', 'binary search', 'heap', 'dynamic programming', 'greedy algorithm', 'misc', 'minimax', 'topological sort', 'sorting', 'graph traversal']
+DATA_STRUCTURES = ['stack', 'queue', 'tuple', 'set', 'dictionary', 'linked list', 'tree', 'graph']
+ALGORITHMS = ['two pointers', 'sliding window', 'matrix operation', 'hashmap', 'depth first search', 'width first search', 'back tracking', 'divide & conquer', 'Kadanes algorithm', 'binary search', 'heap', 'dynamic programming', 'greedy algorithm', 'misc', 'minimax', 'topological sort', 'sorting', 'graph traversal']
 TECHNIQUES = CONTROL_FLOWS + DATA_STRUCTURES + ALGORITHMS
 
 class CodeGenerator(ABC):
