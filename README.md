@@ -58,10 +58,10 @@ scripts/ // bash scripts to scale up experiments.
 ## Citation
 If you use this code, please cite the following paper:
 ```
-@misc{lu2024benchmarkinglanguagemodelcreativity,
+@misc{lu2025benchmarkinglanguagemodelcreativity,
       title={Benchmarking Language Model Creativity: A Case Study on Code Generation}, 
-      author={Yining Lu and Dixuan Wang and Tianjian Li and Dongwei Jiang and Daniel Khashabi},
-      year={2024},
+      author={Yining Lu and Dixuan Wang and Tianjian Li and Dongwei Jiang and Sanjeev Khudanpur and Meng Jiang and Daniel Khashabi},
+      year={2025},
       eprint={2407.09007},
       archivePrefix={arXiv},
       primaryClass={cs.CL},
