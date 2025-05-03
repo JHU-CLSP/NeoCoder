@@ -58,13 +58,25 @@ scripts/ // bash scripts to scale up experiments.
 ## Citation
 If you use this code, please cite the following paper:
 ```bibtex
-@misc{lu2025benchmarkinglanguagemodelcreativity,
-      title={Benchmarking Language Model Creativity: A Case Study on Code Generation}, 
-      author={Yining Lu and Dixuan Wang and Tianjian Li and Dongwei Jiang and Sanjeev Khudanpur and Meng Jiang and Daniel Khashabi},
-      year={2025},
-      eprint={2407.09007},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2407.09007}, 
+@inproceedings{lu-etal-2025-benchmarking,
+    title = "Benchmarking Language Model Creativity: A Case Study on Code Generation",
+    author = "Lu, Yining  and
+      Wang, Dixuan  and
+      Li, Tianjian  and
+      Jiang, Dongwei  and
+      Khudanpur, Sanjeev  and
+      Jiang, Meng  and
+      Khashabi, Daniel",
+    editor = "Chiruzzo, Luis  and
+      Ritter, Alan  and
+      Wang, Lu",
+    booktitle = "Proceedings of the 2025 Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers)",
+    month = apr,
+    year = "2025",
+    address = "Albuquerque, New Mexico",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2025.naacl-long.141/",
+    pages = "2776--2794",
+    ISBN = "979-8-89176-189-6"
 }
 ```
